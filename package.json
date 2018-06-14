@@ -1,0 +1,22 @@
+{
+  "name": "koo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hi": "./bin/hi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidkoojohn/koo-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidkoojohn/koo-cli/issues"
+  },
+  "homepage": "https://github.com/davidkoojohn/koo-cli#readme"
+}

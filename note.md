@@ -1,14 +1,16 @@
 ## 工具说明
 
-1. commander
-> commander是目前很成熟的Node命令行交互接口实现工具
+* commander.js，可以自动的解析命令和参数，用于处理用户输入的命令。
+* download-git-repo，下载并提取 git 仓库，用于下载项目模板。
+* Inquirer.js，通用的命令行用户界面集合，用于和用户进行交互。
+* handlebars.js，模板引擎，将用户提交的信息动态填充到文件中。
+* ora，下载过程久的话，可以用于显示下载中的动画效果。
+* chalk，可以给终端的字体加上颜色。
+* log-symbols，可以在终端上显示出 √ 或 × 等的图标。
 
-2. git-clone
-> git-clone是一个很轻量的Node编写的git clone封装，可以很便捷很快速地从github上克隆执行项目模板。
-
-3. shelljs
-> shelljs同样是一个很轻量的Node编写的系统命令封装，可以很便捷很快速地在Node代码中使用系统命令。
-
+```
+$ npm link
+```
 
 ## 参考
 
